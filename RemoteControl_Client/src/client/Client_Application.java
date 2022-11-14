@@ -1,13 +1,18 @@
 package client;
 
-import java.awt.EventQueue;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
+import java.io.IOException;
+
+import java.net.InetSocketAddress;
+import java.net.Socket;
+import java.net.URL;
 
 public class Client_Application {
 	
-	private ImageIcon icon = new ImageIcon("Assets/Icon/conho.png");
+	private ImageIcon icon = new ImageIcon("../Assets/Icon/conho.png");
 	private JFrame frame;
 
 	/**
