@@ -45,6 +45,7 @@ public class Client_Application {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setIconImage(icon.getImage());
 		
+		// An Ngoi dep chai
 		
 	}
 
