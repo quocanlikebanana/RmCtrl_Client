@@ -17,7 +17,7 @@ public class Client {
 		mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	// Make X button works
 		mainFrame.setResizable(false);	// Make frame unresizable. To prevent components getting displayed unproperly
 		
-		
+		System.out.print("Cacaac");
 		ImageIcon logo = new ImageIcon("conho.png");
 		mainFrame.setIconImage(logo.getImage());	// Change frame icon
 		
